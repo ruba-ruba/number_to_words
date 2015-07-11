@@ -10,7 +10,7 @@ class App
     ARGF.each_line do |line|
       next  if line.strip.empty?
       break if line.strip.match(/exit|end/)
-      puts line
+      puts NumberToWords.new(line).translate
     end
   end
 end
