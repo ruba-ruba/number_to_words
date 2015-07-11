@@ -3,8 +3,8 @@ GEM
     coderay (1.1.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    json (1.8.3)
     method_source (0.8.2)
+    multi_json (1.11.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -13,22 +13,21 @@ GEM
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
       rspec-mocks (~> 3.2.0)
-    rspec-core (3.2.3)
+    rspec-core (3.2.1)
       rspec-support (~> 3.2.0)
-    rspec-expectations (3.2.1)
+    rspec-expectations (3.2.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-mocks (3.2.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
-    simplecov (0.10.0)
+    simplecov (0.9.1)
       docile (~> 1.1.0)
-      json (~> 1.8)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.0)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.8.0)
+    simplecov-html (0.8.0)
     slop (3.6.0)
-    to_words (1.1.0)
 
 PLATFORMS
   ruby
@@ -37,7 +36,3 @@ DEPENDENCIES
   pry
   rspec (~> 3.2.0)
   simplecov
-  to_words
-
-BUNDLED WITH
-   1.10.3
